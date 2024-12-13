@@ -108,13 +108,13 @@ button_frame = tk.Frame(root)
 button_frame.pack(pady=20)
 
 # Buttons for Less Than, Within, Greater Than answers
-less_than_button = tk.Button(button_frame, text="低於", command=lambda: check_answer("less_than"), bg="lightgreen", width=10)
+less_than_button = tk.Button(button_frame, text="Lower", command=lambda: check_answer("less_than"), bg="lightgreen", width=10)
 less_than_button.grid(row=0, column=0, padx=10)
 
-within_button = tk.Button(button_frame, text="正常", command=lambda: check_answer("within"), bg="lightblue", width=10)
+within_button = tk.Button(button_frame, text="Normal", command=lambda: check_answer("within"), bg="lightblue", width=10)
 within_button.grid(row=0, column=1, padx=10)
 
-greater_than_button = tk.Button(button_frame, text="高於", command=lambda: check_answer("greater_than"), bg="lightcoral", width=10)
+greater_than_button = tk.Button(button_frame, text="Higher", command=lambda: check_answer("greater_than"), bg="lightcoral", width=10)
 greater_than_button.grid(row=0, column=2, padx=10)
 
 # Bind keyboard shortcuts to buttons with press effect
