@@ -68,7 +68,7 @@ def check_answer(answer_type):
         feedback_label.config(text="Incorrect!", fg="red")
 
     # show note
-    note_label.config(text=current_row['note'], fg="gray")
+    note_label.config(text=current_row['note'])
 
 # func adjust font size
 def adjust_font_size(delta):
@@ -140,7 +140,7 @@ feedback_frame = tk.Frame(root)
 feedback_label = tk.Label(feedback_frame, text="", font=("Arial", font_size))
 feedback_label.pack(pady=10)
 
-note_label = tk.Label(feedback_frame, text="", font=("Arial", font_size - 4), fg="gray")
+note_label = tk.Label(feedback_frame, text="", font=("Arial", font_size - 4))
 note_label.pack(pady=5)
 
 continue_button = tk.Button(feedback_frame, text="Continue", command=new_question, bg="lightblue", width=15)
