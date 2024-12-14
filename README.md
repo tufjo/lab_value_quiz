@@ -40,3 +40,11 @@ sample lab_value.csv is provided
 <h3>Known Issues</h3>
 Not displaying colors
 <br>Mu(μ) symbol is not displaying properly
+<br>Cursor stuck in the font size input bar
+
+<h3>Change Log</h3>
+
+| version | note                     |
+| ------- | ------------------------ |
+| v1.0.1  | Added Font Size Controls |
+| v1.0    | Initial elease           |
