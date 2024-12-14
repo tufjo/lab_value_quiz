@@ -8,7 +8,7 @@ A simple quiz executable that quiz based on a csv.
 <h3>How to use</h3>
 Download the master branch as a zip and un-zip them in the same folder.
 <br>Make sure the name of the csv is named "lab_value.csv"
-
+<br>The top right controls the font size
 <h3>Shortcuts</h3>
 
 | key   | button   |
