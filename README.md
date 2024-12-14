@@ -1,5 +1,5 @@
 <p align="center">
-
+<img src=".\thumb.png" />
 </p>
 
 <h1>Lab Value Quiz</h1>
