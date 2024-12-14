@@ -97,6 +97,8 @@ def set_font_size(event=None):
     except ValueError:
         font_size_entry.delete(0, tk.END)
         font_size_entry.insert(0, str(font_size))
+    # Shift focus away from the entry box
+    root.focus_set()
 
 # func button sunken
 def press_button_effect(button):
